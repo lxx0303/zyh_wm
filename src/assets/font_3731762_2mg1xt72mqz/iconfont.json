@@ -1,0 +1,30 @@
+{
+  "id": "3731762",
+  "name": "zyh",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2121731",
+      "name": "公文包",
+      "font_class": "gongwenbao",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "3456460",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e711",
+      "unicode_decimal": 59153
+    },
+    {
+      "icon_id": "17605492",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e818",
+      "unicode_decimal": 59416
+    }
+  ]
+}

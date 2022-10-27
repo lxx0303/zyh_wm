@@ -1,10 +1,17 @@
 <template>
   <div class="layout-container">
     <router-view />
-    <van-tabbar class="layout-tabbar" route fixed>
-      <van-tabbar-item to="/">
-      <!-- <van-icon name="chat-o" badge="99+" /> -->
-        <van-icon slot="icon" class="iconfont icon-gongwenbao" dot badge="111"></van-icon>
+    <van-tabbar
+      class="layout-tabbar"
+      route
+      fixed
+    >
+      <van-tabbar-item to="/home">
+        <van-icon
+          slot="icon"
+          class="iconfont icon-gongwenbao"
+          info="new"
+        ></van-icon>
         <span class="text">工作</span>
       </van-tabbar-item>
       <van-tabbar-item to="/message">
@@ -21,19 +28,19 @@
 
 <script>
 export default {
-  name: 'LayoutIndex',
+  name: "LayoutIndex",
   components: {},
   props: {},
-  data () {
+  data() {
     return {
-    }
+    };
   },
   computed: {},
   watch: {},
-  created () {},
-  mounted () {},
-  methods: {}
-}
+  created() {},
+  mounted() {},
+  methods: {},
+};
 </script>
 
 <style scoped lang="less">
@@ -41,13 +48,11 @@ export default {
   .layout-tabbar {
     span.text {
       font-size: 12px;
-      color: #333;
     }
-    .iconfont{
+    .iconfont {
       font-size: 24px;
-      color: #333;
     }
-    .icon-xiaoxi{
+    .icon-xiaoxi {
       font-size: 28px;
     }
   }

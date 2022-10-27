@@ -1,7 +1,7 @@
 <template>
   <div class="layout-container">
     <router-view />
-    <van-tabbar class="layout-tabbar" route>
+    <van-tabbar class="layout-tabbar" route fixed>
       <van-tabbar-item to="/">
       <!-- <van-icon name="chat-o" badge="99+" /> -->
         <van-icon slot="icon" class="iconfont icon-gongwenbao" dot badge="111"></van-icon>
@@ -39,7 +39,6 @@ export default {
 <style scoped lang="less">
 .layout-container {
   .layout-tabbar {
-    display: flex;
     span.text {
       font-size: 12px;
       color: #333;

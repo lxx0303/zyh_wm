@@ -46,7 +46,7 @@
           </div>
         </div>
       </div>
-      <div class="list-time" v-for="(item, i) in 4" :key="i">
+      <div class="list-time" v-for="(item, i) in 3" :key="i">
         <div class="text">
           <div class="text-o">
             <div class="text-t">图书管理员</div>
@@ -77,43 +77,42 @@
 
 <script>
 export default {
-  name: "HomePage",
+  name: 'HomePage',
   components: {},
   props: {},
-  data() {
-    return {};
+  data () {
+    return {}
   },
   computed: {},
   watch: {},
-  created() {},
-  mounted() {},
-  methods: {},
-};
+  created () {},
+  mounted () {},
+  methods: {}
+}
 </script>
 
 <style scoped lang="less">
 .home-container {
-  margin-bottom: 52px;
+  margin-bottom: 45px;
+  background-color: #eee;
+  overflow-x: hidden;
 }
 .top {
   width: 100%;
   height: 140px;
-  // background-color: pink;
+  background-color: #fff;
   margin-bottom: 10px;
 
   .select-pic {
     display: flex;
     justify-content: space-between;
   }
-  [class*=van-hairline]::after{
-    border: 0 ;
-  }
 }
 .main {
   .list-time {
     width: 100%;
     // height: 140px;
-    // background-color: skyblue;
+    background-color: #fff;
     margin-bottom: 10px;
     padding: 25px 20px 10px 15px;
     .time {
